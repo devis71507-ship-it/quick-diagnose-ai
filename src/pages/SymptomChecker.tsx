@@ -108,12 +108,11 @@ const SymptomChecker = () => {
                   {symptoms.map(({ id, label, icon: Icon }) => (
                     <div
                       key={id}
-                      className={`flex items-center space-x-3 p-4 rounded-lg border-2 transition-all cursor-pointer ${
+                      className={`flex items-center space-x-3 p-4 rounded-lg border-2 transition-all ${
                         selectedSymptoms.includes(id)
                           ? 'border-primary bg-secondary'
                           : 'border-border hover:border-primary/50'
                       }`}
-                      onClick={() => handleSymptomToggle(id)}
                     >
                       <Checkbox
                         id={id}
