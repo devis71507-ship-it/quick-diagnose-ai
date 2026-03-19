@@ -7,6 +7,8 @@ import Index from "./pages/Index";
 import SymptomChecker from "./pages/SymptomChecker";
 import Results from "./pages/Results";
 import Auth from "./pages/Auth";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
